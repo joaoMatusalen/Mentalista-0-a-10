@@ -1,0 +1,83 @@
+body {
+  font-family: 'Roboto Mono', monospace;
+  min-height: 600px;
+  background-color: #9e9e9e;
+  background-size: cover;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+}
+
+#valor {
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+  height: 100vh;
+}
+
+.page-title {
+  color: #ffffff;
+  margin: 0 0 5px;
+}
+
+.page-subtitle {
+  color: #ffffff;
+  margin-top: 16px;
+}
+
+.page-logo {
+  width: 180px;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.alura-logo {
+  width: 40px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+@media (max-height: 500px) {
+  body {
+    min-height: 800px;
+  }
+}
+
+input {
+  margin: 4px;
+  padding: 6px;
+  border-radius: 4px;
+}
+
+button {
+  margin-top: 12px;
+  padding: 4px 8px;
+  border-radius: 4px;
+  background: #ffffff;
+  cursor: pointer;
+}
+
+.resultado {
+  color: #ffffff;
+  text-align: center;
+  margin-top: 16px;
+}
+
+p {
+  font-size: 22px;
+}
+
+.git-logo {
+  width: 200px;
+}
+
+#inicio {
+  color: #ffffff;
+  font-size: 16px;
+}
